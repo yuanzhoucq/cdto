@@ -32,5 +32,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Cdto needs access to Finder in order to get current working directory.</string>
 </dict>
 </plist>

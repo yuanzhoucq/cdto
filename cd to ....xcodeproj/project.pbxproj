@@ -41,7 +41,6 @@
 		69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */ = {isa = PBXBuildFile; fileRef = 69449C110B892D0B00A19631 /* X11_xterm.bundle */; };
 		69C8A98E106E818900C4DE0D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */; };
 		69C8AA71106E8F5800C4DE0D /* Finder.app in Resources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
-		69C8AA89106EE02F00C4DE0D /* Finder.app in Sources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
 		69E2DFD718387F4500B7DEA3 /* cd to.app in Terminal */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -387,6 +386,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* cd to ... */;
@@ -477,7 +477,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C8AA89106EE02F00C4DE0D /* Finder.app in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
